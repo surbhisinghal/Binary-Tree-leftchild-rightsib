@@ -30,7 +30,7 @@ class Tree:
             return x 
         elif y is not None:
             return y 
-#Function to inser a node child with parent
+#Function to insert a node child with parent
     def insert(self, node,parent):
         if self.root == None:
             self.root = node
